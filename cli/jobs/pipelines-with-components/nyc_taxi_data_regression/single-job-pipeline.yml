@@ -7,7 +7,7 @@ jobs:
   train_job:
     type: command
     component: ./train.yml
-    compute: azureml:cpu-cluster
+    compute: azureml:aqi-pa-compute-instance
     inputs:
       training_data: 
         type: uri_folder
