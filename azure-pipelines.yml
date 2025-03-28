@@ -5,8 +5,8 @@ trigger:
 
 variables:
   service-connection: 'machine-learning-connection'
-  resource-group: 'mike.coppola-rg'
-  workspace: 'azure_pipeline_testing'
+  resource-group: 'aqi-pa-pilot'
+  workspace: 'aqi-pa-pilot-aml'
 
 jobs:
 - job: SubmitAzureMLJob
